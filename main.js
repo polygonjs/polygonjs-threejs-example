@@ -25,7 +25,8 @@ import {loadSceneAsync_scene_01} from './src/polygonjs/scenes/scene_01/autogener
 const loadedData = await loadSceneAsync_scene_01({
   domElement: 'app'
 });
-scene.add(loadedData.scene.threejsScene());
+// scene.add(loadedData.scene.threejsScene());
+loadedData.scene.threejsScene().add(scene);
 
 // function animate() {
 //   requestAnimationFrame( animate );
