@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+public/polygonjs/backup
+public/polygonjs/js
+public/polygonjs/build
