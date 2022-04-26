@@ -1,5 +1,17 @@
 {
 	"nodes": {
+		"hemisphereLight1": {
+			"pos": [
+				150,
+				100
+			]
+		},
+		"spotLight1": {
+			"pos": [
+				150,
+				200
+			]
+		},
 		"geo1": {
 			"pos": [
 				-50,
@@ -42,20 +54,6 @@
 						250
 					]
 				},
-				"materials1": {
-					"pos": [
-						-250,
-						250
-					],
-					"nodes": {
-						"meshLambert1": {
-							"pos": [
-								-100,
-								150
-							]
-						}
-					}
-				},
 				"color2": {
 					"pos": [
 						-50,
@@ -85,14 +83,22 @@
 						-50,
 						-200
 					]
+				},
+				"materials1": {
+					"pos": [
+						-250,
+						250
+					],
+					"nodes": {
+						"meshLambert1": {
+							"pos": [
+								-100,
+								150
+							]
+						}
+					}
 				}
 			}
-		},
-		"hemisphereLight1": {
-			"pos": [
-				150,
-				100
-			]
 		},
 		"perspectiveCamera1": {
 			"pos": [
@@ -115,12 +121,6 @@
 					}
 				}
 			}
-		},
-		"spotLight1": {
-			"pos": [
-				150,
-				200
-			]
 		}
 	}
 }

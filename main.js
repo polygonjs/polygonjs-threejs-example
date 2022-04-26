@@ -28,6 +28,8 @@ scene.add(loadedData.scene.threejsScene());
 function animate() {
   requestAnimationFrame( animate );
 
+  loadedData.scene.incrementTime();
+
   cube.rotation.x += 0.01;
   cube.rotation.y += 0.01;
 

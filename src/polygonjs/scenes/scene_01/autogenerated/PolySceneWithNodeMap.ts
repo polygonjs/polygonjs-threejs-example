@@ -19,6 +19,8 @@ import {MeshLambertMatNode} from '@polygonjs/polygonjs/dist/src/engine/nodes/mat
 import {CameraOrbitControlsEventNode} from '@polygonjs/polygonjs/dist/src/engine/nodes/event/CameraOrbitControls';
 
 export class PolySceneWithNodeMap_scene_01 extends PolyScene {
+	node(path: '/hemisphereLight1'): HemisphereLightObjNode;
+	node(path: '/spotLight1'): SpotLightObjNode;
 	node(path: '/geo1'): GeoObjNode;
 	node(path: '/geo1/text_welcome'): TextSopNode;
 	node(path: '/geo1/text_to'): TextSopNode;
@@ -26,18 +28,16 @@ export class PolySceneWithNodeMap_scene_01 extends PolyScene {
 	node(path: '/geo1/merge1'): MergeSopNode;
 	node(path: '/geo1/color1'): ColorSopNode;
 	node(path: '/geo1/material1'): MaterialSopNode;
-	node(path: '/geo1/materials1'): MaterialsNetworkSopNode;
-	node(path: '/geo1/materials1/meshLambert1'): MeshLambertMatNode;
 	node(path: '/geo1/color2'): ColorSopNode;
 	node(path: '/geo1/color3'): ColorSopNode;
 	node(path: '/geo1/transform1'): TransformSopNode;
 	node(path: '/geo1/transform2'): TransformSopNode;
 	node(path: '/geo1/transform3'): TransformSopNode;
-	node(path: '/hemisphereLight1'): HemisphereLightObjNode;
+	node(path: '/geo1/materials1'): MaterialsNetworkSopNode;
+	node(path: '/geo1/materials1/meshLambert1'): MeshLambertMatNode;
 	node(path: '/perspectiveCamera1'): PerspectiveCameraObjNode;
 	node(path: '/perspectiveCamera1/events1'): EventsNetworkSopNode;
 	node(path: '/perspectiveCamera1/events1/cameraOrbitControls1'): CameraOrbitControlsEventNode;
-	node(path: '/spotLight1'): SpotLightObjNode;
 	node(path: string):any /* we need any for now as otherwise an error occurs when adding plugins to the overloaded methods */ {
 		return super.node(path);
 	}

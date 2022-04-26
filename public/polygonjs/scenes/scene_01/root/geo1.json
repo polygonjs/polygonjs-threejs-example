@@ -23,7 +23,8 @@
 			"type": "text",
 			"params": {
 				"font": "https://raw.githubusercontent.com/polygonjs/polygonjs-assets/master/fonts/droid_sans_bold.typeface.json",
-				"text": "POLYGONJS",
+				"text": "`round($T*100) / 100`",
+				"type": 1,
 				"extrude": 0.18,
 				"segments": 4
 			}
