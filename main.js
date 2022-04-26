@@ -28,6 +28,11 @@ const loadedData = await loadSceneAsync_scene_01({
 // scene.add(loadedData.scene.threejsScene());
 loadedData.scene.threejsScene().add(scene);
 
+loadedData.scene.registerOnBeforeTick('rotate-cube', (delta)=>{
+  cube.rotation.x += 0.01;
+  cube.rotation.y += 0.01;
+});
+
 // function animate() {
 //   requestAnimationFrame( animate );
 
