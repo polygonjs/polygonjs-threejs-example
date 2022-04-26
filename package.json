@@ -5,12 +5,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "polygon": "polygonjs-editor"
   },
   "devDependencies": {
     "vite": "^2.9.5"
   },
   "dependencies": {
+    "polygonjs-editor": "^1.1.256-1",
     "three": "^0.139.2"
   }
 }
