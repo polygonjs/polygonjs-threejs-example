@@ -19,7 +19,7 @@
 				],
 				"currentPanelIndex": 0,
 				"panel_data": {
-					"active_folder": null,
+					"active_folder": 456,
 					"linkIndex": 1
 				}
 			},
@@ -35,19 +35,27 @@
 			"panel_data": {
 				"camera": {
 					"position": {
-						"x": -48,
-						"y": -22
+						"x": 25,
+						"y": -25
 					},
 					"zoom": 0.5
 				},
-				"history": {},
+				"history": {
+					"98": {
+						"position": {
+							"x": -48,
+							"y": -22
+						},
+						"zoom": 0.5
+					}
+				},
 				"linkIndex": 1
 			}
 		},
 		"split_mode": "horizontal"
 	},
 	"currentNodes": [
-		"/geo1",
+		"/",
 		"/geo1",
 		"/geo1",
 		"/geo1",
@@ -59,7 +67,8 @@
 	"navigationHistory": {
 		"nodePaths": {
 			"1": [
-				"/geo1"
+				"/geo1",
+				"/"
 			],
 			"2": [
 				"/geo1"
@@ -84,7 +93,7 @@
 			]
 		},
 		"index": {
-			"1": 0,
+			"1": 1,
 			"2": 0,
 			"3": 0,
 			"4": 0,

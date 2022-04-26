@@ -1,0 +1,113 @@
+{
+	"type": "actor",
+	"nodes": {
+		"onTick1": {
+			"type": "onTick"
+		},
+		"plane1": {
+			"type": "plane",
+			"params": {
+				"normal": [
+					0,
+					0,
+					1
+				]
+			},
+			"maxInputsCount": 0,
+			"connection_points": {
+				"in": [],
+				"out": [
+					{
+						"name": "plane",
+						"type": "Plane",
+						"isArray": false
+					}
+				]
+			}
+		},
+		"rayFromCursor1": {
+			"type": "rayFromCursor",
+			"connection_points": {
+				"in": [],
+				"out": [
+					{
+						"name": "ray",
+						"type": "Ray",
+						"isArray": false
+					}
+				]
+			}
+		},
+		"rayIntersectPlane1": {
+			"type": "rayIntersectPlane",
+			"inputs": [
+				{
+					"index": 0,
+					"node": "rayFromCursor1",
+					"output": "ray"
+				},
+				{
+					"index": 1,
+					"node": "plane1",
+					"output": "plane"
+				}
+			],
+			"connection_points": {
+				"in": [
+					{
+						"name": "Ray",
+						"type": "Ray",
+						"isArray": false
+					},
+					{
+						"name": "Plane",
+						"type": "Plane",
+						"isArray": false
+					}
+				],
+				"out": [
+					{
+						"name": "position",
+						"type": "Vector3",
+						"isArray": false
+					}
+				]
+			}
+		},
+		"setObjectLookAt1": {
+			"type": "setObjectLookAt",
+			"params": {
+				"targetPosition": {
+					"overriden_options": {}
+				},
+				"up": {
+					"overriden_options": {}
+				},
+				"lerp": {
+					"raw_input": 0.16,
+					"overriden_options": {}
+				},
+				"updateMatrix": {
+					"overriden_options": {}
+				}
+			},
+			"maxInputsCount": 6,
+			"inputs": [
+				{
+					"index": 0,
+					"node": "onTick1",
+					"output": "trigger"
+				},
+				null,
+				{
+					"index": 2,
+					"node": "rayIntersectPlane1",
+					"output": "position"
+				}
+			]
+		}
+	},
+	"inputs": [
+		"transform1"
+	]
+}
