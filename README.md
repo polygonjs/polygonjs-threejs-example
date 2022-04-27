@@ -1,5 +1,15 @@
-Created with [Polygonjs](https://polygonjs.com)
+This is a repository showing how to integrate Polygonjs and Threejs in the same project.
 
+[Read the tutorial](https://polygonjs.com/docs/integrations/threejs) where you will learn how:
+
+- how to import a polygonjs scene into a threejs one.
+- how to do the other way round, which is to import a threejs scene into a polygonjs one.
+
+# Start the app
+
+Install the dependencies: `yarn` or `npm run install`
+
+Start the app: `yarn dev` or `npm run dev`
 # Open Polygonjs Editor
 
 - 1: install dependencies, with `yarn` or `npm install`
