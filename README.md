@@ -1,4 +1,4 @@
-This is a repository showing how to integrate Polygonjs and Threejs in the same project.
+This is a repository showing how to integrate [Polygonjs](https://polygonjs.com) and [Threejs](https://threejs.org/) in the same project.
 
 [Read the tutorial](https://polygonjs.com/docs/integrations/threejs) where you will learn how:
 
