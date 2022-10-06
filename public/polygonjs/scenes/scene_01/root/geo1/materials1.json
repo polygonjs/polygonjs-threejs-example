@@ -7,8 +7,5 @@
 				"useVertexColors": 1
 			}
 		}
-	},
-	"selection": [
-		"meshLambert1"
-	]
+	}
 }

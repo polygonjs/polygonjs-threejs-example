@@ -1,212 +1,113 @@
 {
 	"nodes": {
 		"hemisphereLight1": {
-			"pos": [
-				150,
-				100
-			]
+			"pos": [150, 100]
 		},
 		"spotLight1": {
-			"pos": [
-				150,
-				200
-			]
+			"pos": [150, 200]
 		},
 		"geo1": {
-			"pos": [
-				-50,
-				-150
-			],
+			"pos": [-50, -150],
 			"nodes": {
 				"text_welcome": {
-					"pos": [
-						-300,
-						-300
-					]
+					"pos": [-300, -300]
 				},
 				"text_to": {
-					"pos": [
-						-50,
-						-300
-					]
+					"pos": [-50, -300]
 				},
 				"text_Polygonjs": {
-					"pos": [
-						200,
-						-300
-					]
+					"pos": [200, -300]
 				},
 				"merge1": {
-					"pos": [
-						-50,
-						100
-					]
+					"pos": [-50, 100]
 				},
 				"color1": {
-					"pos": [
-						-300,
-						-100
-					]
+					"pos": [-300, -100]
 				},
 				"material1": {
-					"pos": [
-						-50,
-						250
-					]
+					"pos": [-50, 250]
 				},
 				"color2": {
-					"pos": [
-						-50,
-						-100
-					]
+					"pos": [-50, -100]
 				},
 				"color3": {
-					"pos": [
-						200,
-						-100
-					]
+					"pos": [200, -100]
 				},
 				"transform1": {
-					"pos": [
-						-300,
-						-200
-					]
+					"pos": [-300, -200]
 				},
 				"transform2": {
-					"pos": [
-						200,
-						-200
-					]
+					"pos": [200, -200]
 				},
 				"transform3": {
-					"pos": [
-						-50,
-						-200
-					]
+					"pos": [-50, -200]
 				},
 				"materials1": {
-					"pos": [
-						-250,
-						250
-					],
+					"pos": [-250, 250],
 					"nodes": {
 						"meshLambert1": {
-							"pos": [
-								-100,
-								150
-							]
+							"pos": [-100, 150]
 						}
 					}
 				}
 			}
 		},
 		"perspectiveCamera1": {
-			"pos": [
-				-200,
-				100
-			],
+			"pos": [-200, 100],
 			"nodes": {
 				"events1": {
-					"pos": [
-						-200,
-						50
-					],
+					"pos": [-200, 50],
 					"nodes": {
 						"cameraOrbitControls1": {
-							"pos": [
-								150,
-								50
-							]
+							"pos": [150, 50]
 						}
 					}
 				}
 			}
 		},
 		"arrows": {
-			"pos": [
-				-50,
-				-50
-			],
+			"pos": [-50, -50],
 			"nodes": {
-				"actor1": {
-					"pos": [
-						-100,
-						350
-					],
-					"nodes": {
-						"onTick1": {
-							"pos": [
-								-100,
-								0
-							]
-						},
-						"plane1": {
-							"pos": [
-								-150,
-								400
-							]
-						},
-						"rayFromCursor1": {
-							"pos": [
-								-150,
-								250
-							]
-						},
-						"rayIntersectPlane1": {
-							"pos": [
-								0,
-								300
-							]
-						},
-						"setObjectLookAt1": {
-							"pos": [
-								400,
-								150
-							]
-						}
-					}
-				},
 				"box1": {
-					"pos": [
-						0,
-						0
-					]
+					"pos": [0, 0]
 				},
 				"copy1": {
-					"pos": [
-						50,
-						550
-					]
+					"pos": [50, 550]
 				},
 				"merge1": {
-					"pos": [
-						-100,
-						150
-					]
+					"pos": [-100, 150]
 				},
 				"plane1": {
-					"pos": [
-						300,
-						200
-					]
+					"pos": [300, 200]
 				},
 				"transform1": {
-					"pos": [
-						-100,
-						250
-					]
+					"pos": [-100, 250]
 				},
 				"transform2": {
-					"pos": [
-						300,
-						350
-					]
+					"pos": [300, 350]
 				},
 				"tube1": {
-					"pos": [
-						-200,
-						0
-					]
+					"pos": [-200, 0]
+				},
+				"actor1": {
+					"pos": [-100, 350],
+					"nodes": {
+						"onTick1": {
+							"pos": [-100, 0]
+						},
+						"plane1": {
+							"pos": [-150, 400]
+						},
+						"rayFromCursor1": {
+							"pos": [-150, 250]
+						},
+						"rayIntersectPlane1": {
+							"pos": [0, 300]
+						},
+						"setObjectLookAt1": {
+							"pos": [400, 150]
+						}
+					}
 				}
 			}
 		}

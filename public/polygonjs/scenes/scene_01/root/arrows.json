@@ -6,10 +6,7 @@
 		},
 		"copy1": {
 			"type": "copy",
-			"inputs": [
-				"actor1",
-				"transform2"
-			],
+			"inputs": ["actor1", "transform2"],
 			"flags": {
 				"display": true
 			}
@@ -19,61 +16,35 @@
 			"params": {
 				"compact": true
 			},
-			"inputs": [
-				"tube1",
-				"box1"
-			]
+			"inputs": ["tube1", "box1"]
 		},
 		"plane1": {
 			"type": "plane",
 			"params": {
-				"size": [
-					7,
-					7
-				],
-				"direction": [
-					0,
-					0,
-					1
-				]
+				"size": [7, 7],
+				"direction": [0, 0, 1]
 			}
 		},
 		"transform1": {
 			"type": "transform",
 			"params": {
-				"r": [
-					-90,
-					90,
-					0
-				],
+				"r": [-90, 90, 0],
 				"scale": 0.3
 			},
-			"inputs": [
-				"merge1"
-			]
+			"inputs": ["merge1"]
 		},
 		"transform2": {
 			"type": "transform",
 			"params": {
-				"t": [
-					0,
-					0,
-					-1.3
-				]
+				"t": [0, 0, -1.3]
 			},
-			"inputs": [
-				"plane1"
-			]
+			"inputs": ["plane1"]
 		},
 		"tube1": {
 			"type": "tube",
 			"params": {
 				"segmentsRadial": 3,
-				"center": [
-					0,
-					-0.8,
-					0
-				]
+				"center": [0, -0.8, 0]
 			}
 		}
 	},

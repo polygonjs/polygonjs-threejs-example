@@ -4,7 +4,7 @@
 		"text_welcome": {
 			"type": "text",
 			"params": {
-				"font": "https://raw.githubusercontent.com/polygonjs/polygonjs-assets/master/fonts/droid_sans_bold.typeface.json",
+				"font": "models/droid_sans_bold.typeface.json?timestamp=1665070984407",
 				"text": "Welcome",
 				"extrude": 0.18,
 				"segments": 4
@@ -13,7 +13,7 @@
 		"text_to": {
 			"type": "text",
 			"params": {
-				"font": "https://raw.githubusercontent.com/polygonjs/polygonjs-assets/master/fonts/droid_sans_bold.typeface.json",
+				"font": "models/droid_sans_bold.typeface.json?timestamp=1665070988271",
 				"text": "to",
 				"extrude": 0.18,
 				"segments": 4
@@ -22,7 +22,7 @@
 		"text_Polygonjs": {
 			"type": "text",
 			"params": {
-				"font": "https://raw.githubusercontent.com/polygonjs/polygonjs-assets/master/fonts/droid_sans_bold.typeface.json",
+				"font": "models/droid_sans_bold.typeface.json?timestamp=1665070989027",
 				"text": "`round($T*100) / 100`",
 				"type": 1,
 				"extrude": 0.18,
@@ -31,33 +31,21 @@
 		},
 		"merge1": {
 			"type": "merge",
-			"inputs": [
-				"color1",
-				"color2",
-				"color3"
-			]
+			"inputs": ["color1", "color2", "color3"]
 		},
 		"color1": {
 			"type": "color",
 			"params": {
-				"color": [
-					1,
-					0.5411764705882353,
-					0.5411764705882353
-				]
+				"color": [1, 0.5411764705882353, 0.5411764705882353]
 			},
-			"inputs": [
-				"transform1"
-			]
+			"inputs": ["transform1"]
 		},
 		"material1": {
 			"type": "material",
 			"params": {
 				"material": "/geo1/materials1/meshLambert1"
 			},
-			"inputs": [
-				"merge1"
-			],
+			"inputs": ["merge1"],
 			"flags": {
 				"display": true
 			}
@@ -65,67 +53,37 @@
 		"color2": {
 			"type": "color",
 			"params": {
-				"color": [
-					0.45098039215686275,
-					1,
-					0.3803921568627451
-				]
+				"color": [0.45098039215686275, 1, 0.3803921568627451]
 			},
-			"inputs": [
-				"transform3"
-			]
+			"inputs": ["transform3"]
 		},
 		"color3": {
 			"type": "color",
 			"params": {
-				"color": [
-					0.3607843137254902,
-					0.4980392156862745,
-					1
-				]
+				"color": [0.3607843137254902, 0.4980392156862745, 1]
 			},
-			"inputs": [
-				"transform2"
-			]
+			"inputs": ["transform2"]
 		},
 		"transform1": {
 			"type": "transform",
 			"params": {
-				"t": [
-					"-centroid(0).x",
-					1.25,
-					0
-				]
+				"t": ["-centroid(0).x", 1.25, 0]
 			},
-			"inputs": [
-				"text_welcome"
-			]
+			"inputs": ["text_welcome"]
 		},
 		"transform2": {
 			"type": "transform",
 			"params": {
-				"t": [
-					"-centroid(0).x",
-					-1.45,
-					0
-				]
+				"t": ["-centroid(0).x", -1.45, 0]
 			},
-			"inputs": [
-				"text_Polygonjs"
-			]
+			"inputs": ["text_Polygonjs"]
 		},
 		"transform3": {
 			"type": "transform",
 			"params": {
-				"t": [
-					"-centroid(0).x",
-					0,
-					0
-				]
+				"t": ["-centroid(0).x", 0, 0]
 			},
-			"inputs": [
-				"text_to"
-			]
+			"inputs": ["text_to"]
 		}
 	},
 	"flags": {

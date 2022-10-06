@@ -7,22 +7,7 @@
 		"plane1": {
 			"type": "plane",
 			"params": {
-				"normal": [
-					0,
-					0,
-					1
-				]
-			},
-			"maxInputsCount": 0,
-			"connection_points": {
-				"in": [],
-				"out": [
-					{
-						"name": "plane",
-						"type": "Plane",
-						"isArray": false
-					}
-				]
+				"normal": [0, 0, 1]
 			}
 		},
 		"rayFromCursor1": {
@@ -87,6 +72,9 @@
 					"raw_input": 0.16,
 					"overriden_options": {}
 				},
+				"invertDirection": {
+					"overriden_options": {}
+				},
 				"updateMatrix": {
 					"overriden_options": {}
 				}
@@ -107,7 +95,5 @@
 			]
 		}
 	},
-	"inputs": [
-		"transform1"
-	]
+	"inputs": ["transform1"]
 }
