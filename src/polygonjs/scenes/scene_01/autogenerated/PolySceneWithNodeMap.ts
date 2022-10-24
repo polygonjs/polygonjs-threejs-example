@@ -153,6 +153,7 @@ export interface PolySceneProps_scene_01 {
   "spotLight1--shadowNear"?: ParamValueSerializedTypeMap["float"];
   "spotLight1--shadowFar"?: ParamValueSerializedTypeMap["float"];
   "spotLight1--shadowRadius"?: ParamValueSerializedTypeMap["float"];
+  "spotLight1--debugShadow"?: ParamValueSerializedTypeMap["boolean"];
   "spotLight1--volumetric"?: ParamValueSerializedTypeMap["folder"];
   "spotLight1--tvolumetric"?: ParamValueSerializedTypeMap["boolean"];
   "spotLight1--volAttenuation"?: ParamValueSerializedTypeMap["float"];
@@ -200,6 +201,7 @@ export interface PolySceneProps_scene_01 {
   "geo1-text_welcome--strokeWidth"?: ParamValueSerializedTypeMap["float"];
   "geo1-text_welcome--lineHeight"?: ParamValueSerializedTypeMap["float"];
   "geo1-text_welcome--splitPerLetter"?: ParamValueSerializedTypeMap["boolean"];
+  "geo1-text_welcome--keepEmptyGeometries"?: ParamValueSerializedTypeMap["boolean"];
   "geo1-text_welcome--justifyMode"?: ParamValueSerializedTypeMap["integer"];
   "geo1-text_welcome--tadvanced"?: ParamValueSerializedTypeMap["boolean"];
   "geo1-text_welcome--isCCW"?: ParamValueSerializedTypeMap["boolean"];
@@ -217,6 +219,7 @@ export interface PolySceneProps_scene_01 {
   "geo1-text_to--strokeWidth"?: ParamValueSerializedTypeMap["float"];
   "geo1-text_to--lineHeight"?: ParamValueSerializedTypeMap["float"];
   "geo1-text_to--splitPerLetter"?: ParamValueSerializedTypeMap["boolean"];
+  "geo1-text_to--keepEmptyGeometries"?: ParamValueSerializedTypeMap["boolean"];
   "geo1-text_to--justifyMode"?: ParamValueSerializedTypeMap["integer"];
   "geo1-text_to--tadvanced"?: ParamValueSerializedTypeMap["boolean"];
   "geo1-text_to--isCCW"?: ParamValueSerializedTypeMap["boolean"];
@@ -234,6 +237,7 @@ export interface PolySceneProps_scene_01 {
   "geo1-text_Polygonjs--strokeWidth"?: ParamValueSerializedTypeMap["float"];
   "geo1-text_Polygonjs--lineHeight"?: ParamValueSerializedTypeMap["float"];
   "geo1-text_Polygonjs--splitPerLetter"?: ParamValueSerializedTypeMap["boolean"];
+  "geo1-text_Polygonjs--keepEmptyGeometries"?: ParamValueSerializedTypeMap["boolean"];
   "geo1-text_Polygonjs--justifyMode"?: ParamValueSerializedTypeMap["integer"];
   "geo1-text_Polygonjs--tadvanced"?: ParamValueSerializedTypeMap["boolean"];
   "geo1-text_Polygonjs--isCCW"?: ParamValueSerializedTypeMap["boolean"];

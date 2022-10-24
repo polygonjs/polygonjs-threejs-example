@@ -73,9 +73,10 @@
 	"saveOptions": {
 		"createExport": true,
 		"skipExportSinceRemoteAssetsPresents": false,
+		"minimizeFilesCount": false,
 		"compressJs": true,
 		"createZip": false,
-		"publishToIntegrations": false
+		"runPostExportCommand": false
 	},
 	"paramsModal": []
 }
