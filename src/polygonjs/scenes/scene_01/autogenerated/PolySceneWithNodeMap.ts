@@ -714,6 +714,7 @@ export interface PolySceneProps_scene_01 {
   "arrows-tube1--directionx"?: ParamValueSerializedTypeMap["float"];
   "arrows-tube1--directiony"?: ParamValueSerializedTypeMap["float"];
   "arrows-tube1--directionz"?: ParamValueSerializedTypeMap["float"];
+  "arrows-actor1--objectsMask"?: ParamValueSerializedTypeMap["string"];
   "arrows-actor1--useThisNode"?: ParamValueSerializedTypeMap["boolean"];
   "arrows-actor1--node"?: ParamValueSerializedTypeMap["node_path"];
   "arrows-actor1-plane1--normal"?: ParamValueSerializedTypeMap["vector3"];

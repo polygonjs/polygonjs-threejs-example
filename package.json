@@ -9,10 +9,9 @@
     "polygon": "polygonjs-editor"
   },
   "devDependencies": {
-    "vite": "^2.9.5"
+    "vite": "2.9.5"
   },
   "dependencies": {
-    "polygonjs-editor": "^1.2.42-1",
-    "three": "^0.144.0"
+    "polygonjs-editor": "1.2.55-1"
   }
 }
